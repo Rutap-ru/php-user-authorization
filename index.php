@@ -22,8 +22,6 @@ try {
 if (!empty($_SESSION['user'])) {
 
 } else {
-
     readfile('templates/sing-in.html');
-
 }
 ?>
