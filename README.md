@@ -14,18 +14,10 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Индексы сохранённых таблиц
---
-
---
 -- Индексы таблицы `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT для сохранённых таблиц
---
 
 --
 -- AUTO_INCREMENT для таблицы `users`
