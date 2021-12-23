@@ -90,9 +90,9 @@ class ValidateFormData
 }
 
 // параметры для доступа к БД
-$db_user = "probus"; 
-$db_pass = "18091988"; 
-$db_name = "userauthorization";
+$db_user = "user";  
+$db_pass = "password";
+$db_name = "dbname";
 $db_host = "localhost"; 
 
 // подключаемся к базе данных  

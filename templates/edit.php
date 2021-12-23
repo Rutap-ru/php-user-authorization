@@ -65,8 +65,6 @@
       <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Пароль" value="<?php
         if (isset($_GET['password'])) {
             echo $_POST['password'];
-        } else {
-            echo $_POST['password'];
         }
         ?>">
       <label for="floatingPassword">Текущий пароль</label>
